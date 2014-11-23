@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 3.4.10-BoA Kernel Configuration
+# Linux/arm 3.4.10 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_ARM_HAS_SG_CHAIN=y
@@ -3440,6 +3440,9 @@ CONFIG_VFAT_FS=y
 CONFIG_FAT_DEFAULT_CODEPAGE=437
 CONFIG_FAT_DEFAULT_IOCHARSET="iso8859-1"
 # CONFIG_NTFS_FS is not set
+CONFIG_EXFAT_FS=m
+CONFIG_EXFAT_DEFAULT_CODEPAGE=437
+CONFIG_EXFAT_DEFAULT_IOCHARSET="utf8"
 
 #
 # Pseudo filesystems
@@ -3523,7 +3526,6 @@ CONFIG_NLS_ISO8859_1=y
 # CONFIG_NLS_KOI8_R is not set
 # CONFIG_NLS_KOI8_U is not set
 CONFIG_NLS_UTF8=y
-CONFIG_EXFAT_FS=m
 CONFIG_EXFAT_PATH="texfat_dlxpul"
 CONFIG_EXFAT_VERSION="target/htc.d/htc-3013.6.27"
 
